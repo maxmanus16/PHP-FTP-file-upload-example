@@ -1,13 +1,4 @@
-
-## php cloudflare-api-V4
-
-php binding for cloudflare api v4
-
-
-
-### examples
-
-```php
+<?php
 // FTP access parameters
 $host = 'ftp.example.org';
 $usr = 'example_user';
@@ -54,5 +45,4 @@ if (ftp_chmod($conn_id, 0666, $ftp_path) !== false) {
  
 // close the FTP stream
 ftp_close($conn_id);
-
-```
+?>
